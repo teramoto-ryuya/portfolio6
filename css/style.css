@@ -1,0 +1,183 @@
+.inner-wrap {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* ヘッダー */
+
+
+header .inner-wrap .cow1 .ring {
+    position: absolute;
+    width: 49%;
+    top: 48px;
+    left: 611px;
+    transition: 10s ease-in;
+}
+
+header .inner-wrap .cow1 .img {
+    position: absolute;
+    width: 41%;
+    top: 125px;
+    left: 660px;
+}
+
+header .image .title {
+    fill: #fff;
+    width: 100%;
+    margin-top: 450px;
+    margin-left: -370px;
+}
+
+header .image .title::after {
+    content: "";
+    display: inline-block;
+    width: 500px;
+    height: 1px;
+    color: #000;
+    position: absolute;
+    top: 100px;
+}
+
+header .image .title path {
+    fill: black;
+	stroke: black;
+	stroke-width: 1px;
+    animation: anime 3s ease-in;
+}
+
+@keyframes anime {
+			0%{ 
+				fill:transparent;
+				stroke-dasharray: 1000px;
+				stroke-dashoffset: 1000px;
+			 }
+			90%{ 
+				fill: transparent;
+				stroke-dashoffset: 0;
+			 }
+			100%{ fill:black; }
+		}
+
+/* メイン */
+#graphic .image .Gra_txt {
+    width: 25%;
+    margin-top: 250px;
+}
+
+#web .image .web_txt {
+    width: 14%;
+    margin-top: 200px;
+}
+
+#profile .image .plo_txt {
+    width: 20%;
+    margin-top: 200px;
+}
+
+.txt {
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.sagi,
+.fly,
+.cat,
+.sun {
+    width: 425px;
+    height: 300px;
+}
+
+.karenda {
+    height: 300px;
+}
+
+.swim,
+.zakka,
+.schol,
+.game,
+.move {
+    width: 358px;
+    height: 300px;
+}
+
+.samune {
+    width: 534px;
+    height: 300px;
+}
+
+.plo {
+    width: 333px;
+    height: 350px;
+}
+
+
+.works_move {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.works img {
+    margin:  50px 25px;
+
+}
+
+#web .image {
+    width: 100%;
+}
+
+.plo_img {
+    margin-top: 50px;
+    margin-left: 41px;
+    width: 333px;
+    height: 350px;
+}
+
+#profile .txt_plo .honbun {
+    position: absolute;
+    font-size: 20px;
+    bottom: 130px;
+    right: 40px;
+    line-height: 46px;
+}
+
+#profile .txt_plo .more {
+    position: absolute;
+    font-size: 20px;
+    bottom: 80px;
+    right: 306px;
+    text-decoration: underline;
+}
+
+/* フッター */
+.hutta_back {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.txt h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    margin-top: -260px;
+    color:#fff;
+    font-weight: 200;
+}
+
+.txt ul {
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    gap: 30px;
+    color: #fff;
+    bottom: -80px;
+}
+
+.image ul {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    bottom: -80px;
+    right: 0;
+}
+

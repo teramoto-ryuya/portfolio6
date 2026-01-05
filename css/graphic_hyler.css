@@ -1,0 +1,137 @@
+.inner-wrap {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#title .Gra_txt {
+    width: 40%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#title .Gra_back {
+    position: absolute;
+    top: 240px;
+    right: -210px;
+}
+
+.main h1 {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    margin-top: 70px;
+}
+
+.main_img2 {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 100px;
+    justify-content: center;
+}
+
+.hly{
+    width: 350px;
+    height: auto;
+    margin-top: 480px;
+    margin-left: 0px;
+}
+
+.irare {
+    width: 70px;
+    position: absolute;
+    top: 477px;
+    left: 180px;
+}
+
+.main h3 {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    position: absolute;
+    top: 500px;
+    left: 0px;
+}
+
+.main h4 {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    position: absolute;
+    top: 600px;
+    left: 0px;
+}
+
+.main p {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 40px;
+    position: absolute;
+    top: 680px;
+}
+
+.main_txt {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.moku {
+    width: 600px;
+    margin-top: 600px;
+}
+
+.txt {
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.link ul {
+    width: 1500px;
+    display: flex;
+    padding-top: 20px;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.link_txt {
+    text-align: center;
+    padding-top: 80px
+}
+
+/* フッター */
+.hutta_back {
+    width: 100%;
+    margin-top: 120px;
+}
+
+.txt h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    margin-top: -260px;
+    color:#fff;
+    font-weight: 200;
+}
+
+.txt ul {
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    gap: 30px;
+    color: #fff;
+    bottom: -70px;
+}
+
+#hutta .image ul {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    bottom: -70px;
+    right: 0;
+}

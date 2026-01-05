@@ -1,0 +1,94 @@
+.inner-wrap {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* メイン */
+.main_image .pro_txt {
+    width: 20%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.main_txt {
+    display: flex;
+    margin-top: 100px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_txt h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    font-size: 60px;
+    margin-top: -20px;
+}
+
+.main_txt h3 {
+    font-size: 35px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+.main_txt p {
+    font-size: 18px;
+    line-height: 40px;
+    margin-top: 30px;
+}
+
+.sirusi {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.example_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 10px;
+}
+
+.mov p {
+   text-align: center;
+   margin-top: 100px;
+}
+
+.mov img {
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+/* フッター */
+.hutta_back {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.txt h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    margin-top: -200px;
+    color:#fff;
+    font-weight: 200;
+    text-align: center;
+}
+
+.txt ul {
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    gap: 30px;
+    color: #fff;
+    bottom: -80px;
+}
+
+.image ul {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    bottom: -80px;
+    right: 0;
+}
